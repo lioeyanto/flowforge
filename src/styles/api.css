@@ -1,0 +1,21 @@
+﻿.api-page{max-width:1200px}
+.api-key-badge{display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--bg-elevated);border:1px solid var(--border-subtle);border-radius:var(--radius-md);font-size:13px;color:var(--text-secondary)}
+.api-layout{display:grid;grid-template-columns:1fr 300px;gap:24px;align-items:start}
+.api-main{display:flex;flex-direction:column;gap:24px}
+.api-section{display:flex;flex-direction:column;gap:12px}.api-section.glass-card{padding:24px}
+.api-section-title{font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--text-primary);display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.api-desc{font-size:13px;color:var(--text-muted);line-height:1.6}
+.code-section{background:var(--bg-base);border:1px solid var(--border-subtle);border-radius:var(--radius-md);overflow:hidden}
+.code-header{display:flex;align-items:center;gap:8px;padding:8px 14px;background:var(--bg-elevated);border-bottom:1px solid var(--border-subtle);font-size:12px;color:var(--text-muted);font-weight:500}
+.code-block{margin:0;padding:16px;font-family:'Cascadia Code','Fira Code','Courier New',monospace;font-size:12px;color:var(--accent-success);line-height:1.7;overflow-x:auto;white-space:pre}
+.endpoint-card{border:1px solid var(--border-subtle);border-radius:var(--radius-lg);overflow:hidden;transition:var(--transition)}.endpoint-card.open{border-color:var(--border-default)}
+.endpoint-summary{display:flex;align-items:center;gap:12px;padding:16px 20px;background:var(--bg-surface);cursor:pointer;transition:var(--transition);flex-wrap:wrap}.endpoint-summary:hover{background:var(--bg-elevated)}
+.endpoint-method-wrap{display:flex;align-items:center;gap:10px}
+.endpoint-method{font-size:11px;font-weight:700;padding:3px 10px;border-radius:var(--radius-sm);font-family:monospace;letter-spacing:0.5px;flex-shrink:0}
+.endpoint-path{font-size:13px;color:var(--text-primary);font-family:monospace}
+.endpoint-title{font-size:13px;color:var(--text-secondary);flex:1}
+.endpoint-body{padding:20px;background:var(--bg-base);border-top:1px solid var(--border-subtle);display:flex;flex-direction:column;gap:16px}
+.endpoint-desc{font-size:13px;color:var(--text-secondary);line-height:1.6}
+.api-sidebar{display:flex;flex-direction:column;gap:16px;position:sticky;top:80px}
+.api-sidebar-card{padding:18px}
+@media(max-width:1000px){.api-layout{grid-template-columns:1fr}.api-sidebar{position:static}}
